@@ -1,15 +1,21 @@
 import React from "react";
-import Bank from "./components/Bank";
-import UsersList from "./components/UsersList";
-import TodoList from "./components/TodoList";
-import 'antd/dist/antd.css';
+import "antd/dist/antd.css";
+import Layout from "./layout/Layout";
+import {routes} from "./routes";
+import {Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Bank />
-      <UsersList />
-      <TodoList />
+      <Layout>
+          {routes.map((route) =>
+              <Route
+                key={route.name}
+                path={route.path}
+                component={route.page}
+              />
+          )}
+      </Layout>
     </div>
   );
 }
