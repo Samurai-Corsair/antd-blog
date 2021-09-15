@@ -1,0 +1,8 @@
+
+.appWrapper{
+    padding: 0 16px;
+}
+
+.pageWrapper{
+    min-height: calc(100vh - var(--headerHeight) - var(--footerHeight));
+}
