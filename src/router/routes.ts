@@ -1,6 +1,7 @@
 import Home from "../pages/Home/Home";
 import { FC } from "react";
 import { SignIn } from "../authPages/SignIn/SignIn";
+import {SignUp} from "../authPages/SignUp/SignUp";
 
 export interface IRoute {
   name: string;
@@ -30,8 +31,8 @@ export const routes: IRoute[] = [
   {
     name: "Sign-up",
     exact: true,
-    path: "/SignUp",
-    component: Home,
+    path: "/sign-up",
+    component: SignUp,
     private: false,
   },
 ];
