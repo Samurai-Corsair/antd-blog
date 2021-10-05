@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Inconsolata', monospace;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,4 +16,7 @@ code {
 :root {
   --headerHeight: 80px;
   --footerHeight: 50px;
+  --primary: #4262FF;
+  --primaryDark: #455BED;
+  --white: #ffffff;
 }

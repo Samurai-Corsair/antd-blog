@@ -1,10 +1,10 @@
-.header{
+.footer{
     padding: 0 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary);
-    min-height: var(--headerHeight);
+    background-color: var(--primaryDark);
+    min-height: var(--footerHeight);
     color: var(--white);
     font-size: 28px;
 }
