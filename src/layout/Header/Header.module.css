@@ -1,10 +1,14 @@
 .header{
     padding: 0 16px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--primary);
     min-height: var(--headerHeight);
     color: var(--white);
-    font-size: 28px;
+    font-size: 25px;
+}
+
+button:not(:last-child) {
+    margin-right: 5px;
 }

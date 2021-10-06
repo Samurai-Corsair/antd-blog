@@ -3,7 +3,7 @@ import { BaseButtonProps } from "antd/es/button/button";
 
 interface IButton {
   text: string;
-  disabled: boolean;
+  disabled?: boolean;
   handleClick: () => void;
 }
 
